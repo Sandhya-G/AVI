@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "104974528876",
+    "firebase_url": "https://avi-pp.firebaseio.com",
+    "project_id": "avi-pp",
+    "storage_bucket": "avi-pp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104974528876:android:e75d95542162b56a",
+        "android_client_info": {
+          "package_name": "com.example.likeanerd.avi3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104974528876-439vabno3q4p6s1hvvj1njniif9n49rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7rwqW7UE91JUNz3xnWyqjnuLi6FUebEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

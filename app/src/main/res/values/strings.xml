@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AVI 2</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <string name="enter_the_mail_adddress">Enter the mail adddress</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="textview">TextView</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="don_t_have_an_string_don_t_have_an_account">Don\'t have an @string/don_t_have_an_account</string>
+    <string name="help1">Help</string>
+    <string name="logout1">Logout</string>
+    <string name="help">Help</string>
+
+
+</resources>
