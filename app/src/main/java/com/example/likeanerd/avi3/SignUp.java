@@ -25,6 +25,7 @@ public class SignUp extends AppCompatActivity {
     ProgressBar progressBar;
     String number;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,6 @@ public class SignUp extends AppCompatActivity {
 
         phone = (EditText) findViewById(R.id.name);
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
-        mAuth = FirebaseAuth.getInstance();
 
     }
 
@@ -99,9 +99,10 @@ public class SignUp extends AppCompatActivity {
 
                     String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
-                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Users Available").child("Phone");
-
+                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Users Available").child(userId).child("g").child("Mobile");
                     ref.setValue(number);
+
+
 
                     Toast.makeText(SignUp.this, "Sucessfully Registered", Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SignUp.this,MapsActivity.class));
